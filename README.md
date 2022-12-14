@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL:  [Visit now](https://github.com/prabhu30/nft-preview-card-component)
-- Live Site URL:  [Visit now](https://prabhu30.github.io/nft-preview-card-component)
+- Live Site URL:  [Visit now](https://nft-ethereum-card.netlify.app/)
 
 ## My process
 

@@ -46,7 +46,7 @@ body {
     6. Improve media defaults
   */
 img,
-picture,
+.product__images,
 video,
 canvas,
 svg {
@@ -108,8 +108,50 @@ body {
     gap: 1rem;
 }
 
+.product__images {
+    position: relative;
+}
+
 .product__img {
     border-radius: 0.5rem;
+}
+
+.product__images div {
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%, 50%, 60%);
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.product__images div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.product__view {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* 
+.product__view:hover {
+    display: grid;
+    cursor: pointer;
+    background-image: url(images/image-equilibrium.jpg);
+} */
+
+.product__heading:hover {
+    cursor: pointer;
+    color: var(--clr-primary-200);
 }
 
 .product__para {
@@ -159,6 +201,11 @@ hr {
     margin-right: 1rem;
 }
 
-.product__creator>span {
+.product__creator {
     color: var(--clr-primary-300);
+}
+
+.product__creator-name:hover {
+    cursor: pointer;
+    color: var(--clr-neutral-100);
 }

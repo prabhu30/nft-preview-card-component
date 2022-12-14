@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-- Through this project, I learnt how block elements behave, how justify-content property of flexbox works, and few more things.
+- Through this project, I learnt how to overlay an image over another image, transitioning, centering that image, etc. I also learnt how block elements behave, how justify-content property of flexbox works, and few more things.
 
 ### Continued development
 - This card component may not be used widely across day-to-day websites, since this is related to crypto. So, If i am going to work with ethereum in the future, then I might make use of this card component during design phase.
